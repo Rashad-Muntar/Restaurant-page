@@ -4,7 +4,7 @@ const footerContent = () => {
   const text = document.createElement('p');
 
   wrapper.classList.add('wrapper');
-  text.innerHTML = 'Desig and built by Rashad';
+  text.innerHTML = 'Designed and built by Rashad';
 
   wrapper.appendChild(text);
   footer.appendChild(wrapper);

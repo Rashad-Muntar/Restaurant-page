@@ -7,6 +7,6 @@ function page() {
   const content = document.getElementById('content');
   content.appendChild(header());
   content.appendChild(homeContent());
-  document.body.appendChild(footerContent());
+  content.appendChild(footerContent());
 }
 export default page;
