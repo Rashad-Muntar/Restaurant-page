@@ -1,5 +1,4 @@
-import './main.scss'
-import {page} from './page'
+import './main.scss';
+import page from './page';
 
-page()
-
+page();
