@@ -177,6 +177,27 @@ nav {
   border: 3px solid red;
 }
 
+footer {
+  background-color: #2a2415;
+  width: 100vw;
+  height: 50px;
+  margin: 0;
+  opacity: 0.9;
+  bottom: 0;
+  position: fixed;
+  color: white;
+
+  .wrapper {
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 @keyframes easeInOutBack {
   0% {
     opacity: 0;
