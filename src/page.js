@@ -7,5 +7,4 @@ function page() {
   content.appendChild(header());
   content.appendChild(homeContent());
 }
-
 export default page;
