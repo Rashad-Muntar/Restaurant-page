@@ -1,4 +1,4 @@
-function contactContent() {
+const contactContent = () => {
   const bodyContent = document.getElementById('content');
   const contactWraper = document.createElement('div');
   const phone = document.createElement('p');
@@ -16,9 +16,9 @@ function contactContent() {
   bodyContent.appendChild(contactWraper);
 
   return contactWraper;
-}
+};
 
-function contactLoader() {
+const contactLoader = () => {
   const contactButton = document.createElement('button');
   contactButton.textContent = 'Contact';
   contactButton.classList.add('menu_btns');
@@ -37,6 +37,6 @@ function contactLoader() {
   });
 
   return contactButton;
-}
+};
 
 export default contactLoader;

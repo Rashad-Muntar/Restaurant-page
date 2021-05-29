@@ -3,7 +3,7 @@ import { homeLoader } from './home';
 import menuLoader from './menu';
 import contactLoader from './contact';
 
-function header() {
+const header = () => {
   const nav = document.createElement('nav');
   const wrapper = document.createElement('div');
   const menuWrapper = document.createElement('div');
@@ -22,6 +22,6 @@ function header() {
   nav.appendChild(wrapper);
 
   return nav;
-}
+};
 
 export default header;

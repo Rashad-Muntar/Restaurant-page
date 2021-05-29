@@ -1,4 +1,4 @@
-function homeContent() {
+const homeContent = () => {
   const bodyContent = document.getElementById('content');
   const homeWraper = document.createElement('div');
   const mainText = document.createElement('p');
@@ -15,9 +15,9 @@ function homeContent() {
   bodyContent.appendChild(homeWraper);
 
   return homeWraper;
-}
+};
 
-function homeLoader() {
+const homeLoader = () => {
   const homeButton = document.createElement('button');
   homeButton.textContent = 'Home';
   homeButton.classList.add('menu_btns');
@@ -37,6 +37,6 @@ function homeLoader() {
   });
 
   return homeButton;
-}
+};
 
 export { homeLoader, homeContent };

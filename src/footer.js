@@ -1,4 +1,4 @@
-function footerContent() {
+const footerContent = () => {
   const footer = document.createElement('footer');
   const wrapper = document.createElement('div');
   const text = document.createElement('p');
@@ -10,6 +10,6 @@ function footerContent() {
   footer.appendChild(wrapper);
 
   return footer;
-}
+};
 
 export default footerContent;

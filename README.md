@@ -36,7 +36,7 @@ Simply follow the guide below and you'll be up and running in no time.
 
 ### Other Dependencies
 
-- Rubocop: This is a tool for checking code quality and ensuring they meet the requirements. Don’t worry about this if you’re not a developer. Microverse provides a wonderful setup guide for [rubocop here](https://github.com/microverseinc/linters-config/tree/master/ruby).
+- Eslint: This is a tool for checking code quality and ensuring they meet the requirements. Don’t worry about this if you’re not a developer. Microverse provides a wonderful setup guide for [rubocop here](https://github.com/microverseinc/linters-config/tree/master/ruby).
 
 ### Gems Used
 - css-loader
