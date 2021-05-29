@@ -1,21 +1,12 @@
-import header from './header'
-import {homeContent} from './home'
+/* eslint-disable import/no-cycle */
+import header from './header';
+import { homeContent } from './home';
+import footerContent from './footer';
 
-
-function page(){
-    let content = document.getElementById('content')
-    content.appendChild(header())
-    content.appendChild(homeContent())
+function page() {
+  const content = document.getElementById('content');
+  content.appendChild(header());
+  content.appendChild(homeContent());
+  content.appendChild(footerContent());
 }
-
-function activeButton(button) {
-    const buttons = document.querySelectorAll(".menu_btns");
-  
-    buttons.forEach((button) => {
-      if (button !== this) {
-        button.classList.add("activeBtn");
-      }
-    });
-  }
-
-export {page, activeButton}
+export default page;
