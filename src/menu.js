@@ -18,7 +18,7 @@ const menuItems = [
 
 ];
 
-function menuContent() {
+const menuContent = () => {
   const bodyContent = document.getElementById('content');
   const menuWraper = document.createElement('div');
   menuWraper.classList.add('menu_item_wrapper');
@@ -41,9 +41,9 @@ function menuContent() {
   }
 
   return menuWraper;
-}
+};
 
-function menuLoader() {
+const menuLoader = () => {
   const menuButton = document.createElement('button');
   menuButton.textContent = 'Menu';
   menuButton.classList.add('menu_btns');
@@ -66,6 +66,6 @@ function menuLoader() {
   });
 
   return menuButton;
-}
+};
 
 export default menuLoader;
